@@ -846,6 +846,23 @@
                 }
               }
             </script>
+            <style>
+              /* CSS untuk hover */
+              a.hover-effect {
+                display: inline-block;
+                transition: all 0.3s ease;
+                text-decoration: none;
+                font-size: 24px;
+                color: #000;
+              }
+              a.hover-effect:hover {
+                transform: scale(1.2);
+                text-decoration: underline;
+                text-decoration-color: blue;
+                text-underline-offset: 3px;
+                color: salmon;
+              }
+            </style>
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -862,12 +879,13 @@
                         </p>
                         <h3>Herden Baiquni (Coem)</h3>
                         <h4>Administrasi Data Server</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
+                        <div>
+                          <a href="" class="hover-effect">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                          <a href="" class="hover-effect">
+                            <i class="bi bi-instagram"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -899,18 +917,56 @@
                         </p>
                         <h3>Arieriyan</h3>
                         <h4>IT Network Engginer</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
+                        <div>
+                          <a href="" class="hover-effect">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                          <a href="" class="hover-effect">
+                            <i class="bi bi-instagram"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
                     <div class="col-lg-2 text-center">
                       <img
                         src="assets/img/team/me4.jpg"
+                        class="img-fluid testimonial-img"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="testimonial-content">
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span
+                            >IT programmer junior khusus UI dan UX dengan
+                            framework Laravel.</span
+                          >
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                        <h3>Ahadiyat (dede)</h3>
+                        <h4>IT Programmer</h4>
+                        <div>
+                          <a href="" class="hover-effect">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                          <a href="" class="hover-effect">
+                            <i class="bi bi-instagram"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                      <img
+                        src="assets/img/team/uknow.png"
                         class="img-fluid testimonial-img"
                         alt=""
                       />
