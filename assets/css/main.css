@@ -205,6 +205,19 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
 
+.profile-img {
+  border-radius: 20px; /* membuat sudut melengkung */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);  /* membuat efect bayangan menjaddi elegan */
+  transition: all 0.3s ease;
+  object-fit: cover;
+}
+
+/* membuat efect saat di sentuh */
+.profile-img:hover {
+  transform: translate(-5px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
