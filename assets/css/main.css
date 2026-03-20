@@ -1174,6 +1174,31 @@ section,
   width: 100%;
 }
 
+.portfolio-details-slider{
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.portfolio-details-slider img {
+  width: 100%;
+  height: 400px; /* tinggi biar seragam posisi gambar */
+  object-fit: cover; /* crop otomaris biar sesuai */
+  border-radius: 15px;
+  transition: transform 0.5s ease, filter 0.5s ease; 
+}
+
+/* menambahkan Effect Hover saat disentuh */
+.portfolio-details-slider .swiper-slide:hover img {
+ transform: scale(1.08);
+ filter: brightness(0.9);
+}
+
+.portfolio-details-slider .swiper-slide {
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
 .portfolio-details .swiper-wrapper {
   height: auto;
 }
